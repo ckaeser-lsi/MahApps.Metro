@@ -969,7 +969,7 @@ namespace MahApps.Metro.Controls
                 {
                     var value = newValue.Value;
 
-                    if (format.ToUpper().Contains("P") || format.Contains("%"))
+                    if (format.Contains("%"))
                     {
                         value = value / 100d;
                     }
